@@ -4,12 +4,9 @@ import json
 import sys
 import io
 
-pak = input("Enter your public AWS access key: ")
-sak = input("Enter your secret AWS access key: ")
-
 # AWS Textract client setup
-access_key = pak
-secret_access_key = sak
+# access_key = ''
+# secret_access_key = ''
 
 textract_client = boto3.client('textract', aws_access_key_id=access_key, 
                                aws_secret_access_key=secret_access_key, 
@@ -41,4 +38,6 @@ def ocr_image(image_path):
 
 if __name__ == "__main__":
     image_path = sys.argv[1]
+    access_key = sys.argv[2]
+    secret_access_key = sys.argv[3]
     print(ocr_image(image_path))

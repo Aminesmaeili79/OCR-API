@@ -1,0 +1,6 @@
+@OcrMicroservice_HostAddress = http://localhost:5111
+
+GET {{OcrMicroservice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

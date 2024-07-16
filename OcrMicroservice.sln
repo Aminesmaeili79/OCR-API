@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR-API", "OCR-API\OCR-API.csproj", "{802122D5-3FDE-4843-94A9-3AE84C6C9712}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcrMicroservice", "OcrMicroservice\OcrMicroservice.csproj", "{13201DC6-2B8E-4C76-B936-1DE7A598B06A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{802122D5-3FDE-4843-94A9-3AE84C6C9712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{802122D5-3FDE-4843-94A9-3AE84C6C9712}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{802122D5-3FDE-4843-94A9-3AE84C6C9712}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{802122D5-3FDE-4843-94A9-3AE84C6C9712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13201DC6-2B8E-4C76-B936-1DE7A598B06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13201DC6-2B8E-4C76-B936-1DE7A598B06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13201DC6-2B8E-4C76-B936-1DE7A598B06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13201DC6-2B8E-4C76-B936-1DE7A598B06A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C14E4486-6330-4BD1-A6F1-D032CD487C7F}
+		SolutionGuid = {9A917BD5-7DEE-441B-98B1-F3488384B866}
 	EndGlobalSection
 EndGlobal
